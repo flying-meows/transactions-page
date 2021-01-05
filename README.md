@@ -1,5 +1,11 @@
 # transactions_page
 
+Ref.:  
+
+Bank App UI design flutter | Speed Code  
+Youtube: <https://www.youtube.com/watch?v=bCSHLD7TsLA>  
+Github: <https://github.com/themaaz32/bank_app>  
+
 A new Flutter project.
 
 ## Getting Started
