@@ -7,7 +7,7 @@ class TransactionsScreen extends StatelessWidget {
       children: <Widget>[
         Padding(
           // Padding on the left of the profile image
-          padding: EdgeInsets.only(left: 20),
+          padding: EdgeInsets.only(left: 20, top: 10),
           // Profile image and Text placed in a row
           child: Row(
             children: [
@@ -38,6 +38,31 @@ class TransactionsScreen extends StatelessWidget {
             ],
           ),
         ),
+        Padding(
+            padding: EdgeInsets.only(left: 20, top: 10, right: 20, bottom: 10),
+            child: Container(
+                // Block under profile image and username
+                height: 200,
+                decoration: BoxDecoration(
+                    gradient: LinearGradient(
+                        colors: [Colors.blueAccent, Colors.blue[400]]),
+                    borderRadius: BorderRadius.all(Radius.circular(20))),
+                child: Center(
+                  child: Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: <Widget>[
+                      Text(
+                        "Total Transaction Amount",
+                        style: TextStyle(
+                            fontWeight: FontWeight.bold, color: Colors.white),
+                      ),
+                      Text(
+                        "\$2.67M",
+                        style: TextStyle(color: Colors.white, fontSize: 42),
+                      ),
+                    ],
+                  ),
+                )))
       ],
     );
   }
