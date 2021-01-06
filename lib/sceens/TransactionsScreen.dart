@@ -24,7 +24,8 @@ class TransactionsScreen extends StatelessWidget {
               SizedBox(
                 width: 80,
                 height: 80,
-                child: Image.asset("images/profile.png", fit: BoxFit.contain),
+                child: Image.asset("assets/images/profile.png",
+                    fit: BoxFit.contain),
               ),
               // Hello Text and Username set to right
               Column(
