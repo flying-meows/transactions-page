@@ -178,6 +178,14 @@ class TransactionsScreen extends StatelessWidget {
                       "Some brief detail of transaction no $index",
                       style: TextStyle(color: Colors.white),
                     ),
+                    contentPadding:
+                        EdgeInsets.only(left: 16, right: 16, top: 5, bottom: 5),
+                    trailing: Text(
+                      "DEBIT",
+                      style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                          color: Colors.greenAccent),
+                    ),
                   ),
                 ),
               );
