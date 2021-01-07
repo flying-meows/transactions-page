@@ -1,6 +1,6 @@
 # transactions_page
 
-<img src="simulator_screenshot_BB8CC39C-4F76-42E7-B509-A7D69E449EF7.png" width="324">
+<img src="simulator_screenshot_BB8CC39C-4F76-42E7-B509-A7D69E449EF7.png" width="200">
 
 Ref.:  
 
